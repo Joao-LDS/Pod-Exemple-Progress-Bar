@@ -32,6 +32,7 @@ class ViewController: UIViewController {
 		view.setProgressRounded(20)
 		view.setHeight(50)
 		view.setProgressColor(.black)
+		view.setBorder(width: 2, color: .cyan)
 		return view
 	}()
 	

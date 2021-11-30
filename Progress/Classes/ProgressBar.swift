@@ -51,6 +51,11 @@ public final class ProgressBar: UIView {
 		heightAnchor.constraint(equalToConstant: height).isActive = true
 	}
 	
+	public func setBorder(width: CGFloat, color: UIColor) {
+		layer.borderColor = color.cgColor
+		layer.borderWidth = width
+	}
+	
     public func completeProgress(percent: CGFloat, completion: ((Bool) -> ())? = nil) {
 		let width = frame.size.width * percent
 		leadingConstraint?.constant = width
