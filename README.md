@@ -22,7 +22,7 @@ pod 'Progress'
 
 ## Author
 
-Joao Luis dos Santos, joao.luis-terceiro@cea.com.br
+Joao Luis dos Santos, joao_l_d_s@hotmail.com
 
 ## License
 
