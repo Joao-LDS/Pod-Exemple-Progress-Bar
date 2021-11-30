@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Progress'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Progress.'
+  s.summary          = 'Exemplo de criação de dependência usando CocoaPods.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Implementação simples de um progress bar cutomizada.'
 
-  s.homepage         = 'https://github.com/Joao Luis dos Santos/Progress'
+  s.homepage         = 'https://github.com/Joao-LDS/Pod-Exemple-Progress-Bar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joao Luis dos Santos' => 'joao.luis-terceiro@cea.com.br' }
-  s.source           = { :git => 'https://github.com/Joao Luis dos Santos/Progress.git', :tag => s.version.to_s }
+  s.author           = { 'Joao Luis dos Santos' => 'joao_l_d_s@hotmail.com' }
+  s.source           = { :git => 'https://github.com/Joao-LDS/Pod-Exemple-Progress-Bar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'Progress/Classes/**/*'
+  
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'Progress' => ['Progress/Assets/*.png']
